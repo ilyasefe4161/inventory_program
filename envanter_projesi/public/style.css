@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 7px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+.table th {
+    border-top: none;
+    color: #7f8c8d;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-sm {
+    border-radius: 5px;
+}
+
+/* Animasyonlar */
+.card {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive düzenlemeler */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
